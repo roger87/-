@@ -14,13 +14,13 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
         title Hearthstone
     body
-        .banner
+        .banner(data-aos="fade-down" data-aos-duration="1200")
             ul
-                li #[a(herf="#") 對戰區]
-                li #[a(herf="#") 資料片]
-                li#LOGO  #[a(herf="#") Hearthstone]
-                li #[a(herf="#") 砸錢區]
-                li #[a(herf="#") 爐邊聚會]
+                li(data-aos="fade-down" data-aos-delay="600") #[a(herf="#") 對戰區]
+                li(data-aos="fade-down" data-aos-delay="600") #[a(herf="#") 資料片]
+                li#LOGO(data-aos="fade-down" data-aos-delay="800") #[a(herf="#") Hearthstone]
+                li(data-aos="fade-down" data-aos-delay="600") #[a(herf="#") 砸錢區]
+                li(data-aos="fade-down" data-aos-delay="600") #[a(herf="#") 爐邊聚會]
         .content
             .title
                 h1 噁心排組
@@ -31,17 +31,17 @@ html(lang="en")
                 +product("images/project3.png" ,"小恐龍", "就是原始小恐龍", 2000)
             .about 
                 .pic    
-                    img(src="images/project4.png", alt="傲慢知人簡介")
+                    img(src="images/project4.png", alt="傲慢知人簡介" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600")
                 .message
                     h2 傲慢知人簡介
                     ul
-                      li 我很傲慢 
-                      li 其他人都在亂打 
-                      li 我愛月希 
-                      li 我唱歌很好聽
+                      li(data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600") 我很傲慢 
+                      li(data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600") 其他人都在亂打 
+                      li(data-aos="fade-right" data-aos-duration="1400" data-aos-delay="600") 我愛月希 
+                      li(data-aos="fade-right" data-aos-duration="1600" data-aos-delay="600") 我唱歌很好聽
             footer
-                img(src="images/01.png", alt="傲慢知人簡介")
-                div &copy; 2019 roger
+                img(src="images/01.png", alt="傲慢知人簡介" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600")
+                div(data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300" data-aos-offset="-100") &copy; 2019 roger
             |    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             |    <script>
             |        AOS.init();
