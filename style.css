@@ -1,4 +1,36 @@
-h1 {
-  color: aqua;
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+* {
+  border: 0.5px solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/Cover.png);
+  background-size: cover;
+  color: wheat;
+}
+
+.banner ul {
+  height: 100px;
+  width: 1000px;
+  margin: 85px auto 0 auto;
+  text-align: center;
+}
+
+.banner ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.banner ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner ul #LOGO {
+  font-size: 72px;
+  vertical-align: top;
+  margin: 0 60px;
 }
 /*# sourceMappingURL=style.css.map */
